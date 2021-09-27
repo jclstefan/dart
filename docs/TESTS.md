@@ -82,18 +82,16 @@ If you get stuck, at any point, don't forget to reach out for [help](http://exer
 1. In the terminal window, get the first exercise:
 
      ```shell
-     $ exercism fetch dart
+     $ exercism download --exercise=hello-world --track=dart
 
-     New:                 1 problem
-     Dart (Etl) /Users/janedoe/exercism/dart/hello-world
-
-     unchanged: 0, updated: 0, new: 1
+     Downloaded to
+     /Users/YOUR-USERNAME/Exercism/dart/hello-world
      ```
 
 1. Change directory into the exercise:
 
      ```shell
-     $ cd /Users/janedoe/exercism/dart/hello-world
+     $ cd /Users/YOUR-USERNAME/Exercism/dart-mentor/hello-world
      ```
 
 1. Download the dependent packages:
@@ -105,15 +103,15 @@ If you get stuck, at any point, don't forget to reach out for [help](http://exer
 1. Run the tests:
 
      ```shell
-     $ dart test
+     $ dart run test
      ```
    *(Don't worry about the tests failing, at first, this is how you begin each exercise.)*
 
-1. Solve the exercise.  Find and work through the `README.md` guide ([view on GitHub](https://github.com/exercism/dart/blob/master/exercises/hello-world/README.md)).
+1. Solve the exercise.  Find and work through the `README.md` guide ([view on GitHub](https://github.com/exercism/dart/blob/main/README.md)).
 
 Good luck!  Have fun!
 
-If you get stuck, at any point, don't forget to reach out for [help](http://exercism.io/languages/dart/help).
+If you get stuck, at any point, this ([video](https://www.youtube.com/watch?v=ICRNLtjPUas&t=1272s)) will help you out.
 
 ----
 
